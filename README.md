@@ -69,7 +69,7 @@ Make sure you have **Node.js** (v18+) and **npm** installed.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/LouOt3328/Portfolio.git
+   git clone [https://github.com/LouOt3328/Portfolio.git](https://github.com/Theworld-exe/Portfollio)
    cd Portfolio
    ```
 
