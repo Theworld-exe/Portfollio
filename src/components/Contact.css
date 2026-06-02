@@ -1,0 +1,116 @@
+.terminal-container {
+    max-width: 700px;
+    margin: 0 auto;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.terminal-header {
+    background-color: #1a1a1a;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.terminal-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.red {
+    background: #ff5f56;
+}
+
+.yellow {
+    background: #ffbd2e;
+}
+
+.green {
+    background: #27c93f;
+}
+
+.terminal-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.terminal-body {
+    background-color: var(--bg-card);
+    padding: 2.5rem;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--accent-purple);
+    margin-bottom: 0.75rem;
+}
+
+.terminal-input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-left: 2px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.terminal-input:focus {
+    outline: none;
+    border-left-color: var(--accent-lime);
+}
+
+textarea.terminal-input {
+    resize: none;
+}
+
+.terminal-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1.5rem;
+    background-color: transparent;
+    border: 1px solid var(--accent-lime);
+    color: var(--accent-lime);
+    border-radius: 4px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.terminal-btn:hover {
+    background-color: var(--accent-lime);
+    color: var(--bg-dark);
+    box-shadow: 0 0 20px rgba(190, 242, 100, 0.4);
+}
+
+.success-message {
+    color: var(--accent-lime);
+}
+
+.success-message p {
+    margin-bottom: 0.5rem;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
